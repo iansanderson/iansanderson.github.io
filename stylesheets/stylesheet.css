@@ -118,10 +118,14 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-nav a {
+div.nav {
+	text-align: center;
+}
+
+div.nav a {
 	color: #f2f2f2;
 	text-decoration: underline;
-	text-align: center;
+	padding-right: 12px;
 }
 
 a:hover, a:focus {text-decoration: underline;}
